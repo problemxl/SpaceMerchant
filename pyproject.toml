@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spacemerchants"
+version = "0.1.0"
+description = ""
+authors = ["Mark <email@email.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.3"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 120
